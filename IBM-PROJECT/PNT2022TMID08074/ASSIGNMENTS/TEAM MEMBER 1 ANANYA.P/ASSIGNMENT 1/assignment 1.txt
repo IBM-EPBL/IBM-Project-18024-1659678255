@@ -1,0 +1,28 @@
+<Html>  
+<head>   
+<title>  
+User Registration Form  
+</title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form>  
+<label> First Name: </label> <br>         
+<input type="text" name="fname" size="15" align="center"/> <br> <br>
+<label> Last Name: </label> <br>         
+<input type="text" name="lname" size="15" align="center"/> <br> <br>  
+<label> Email: </label> <br>    
+<input type="text" name="email" size="15" align="right"/> <br> <br>  
+<label> Mobile:</label> <br>         
+<input type="text" name="mobile" size="15" align="right"/> <br><br> 
+<label> City:</label> <br>         
+<input type="text" name="city" size="15" align="right"/> <br><br>
+<label> State:</label> <br>        
+<input type="text" name="State" size="15" align="right"/> <br><br>
+<label> Country:</label> <br>        
+<input type="text" name="country" size="15" align="right"/> <br><br>
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>

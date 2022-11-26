@@ -1,0 +1,24 @@
+o
+
+    J9Nc«  ã                   @   s¬   d dl mZ d dlmZmZ eeƒZe d¡dd„ ƒZe d¡dd„ ƒZ	e d	¡d
+d„ ƒZ
+e d¡d
+d„ ƒZe d¡dd„ ƒZe d¡dd„ ƒZ
+edkrTejdd dS dS )é    ©Úescape)ÚFlaskÚrender_templateú/c                   C   ó   t dƒS )Nz	home.html©r   © r	   r	   úWE:\Aravindh\NTP\IBM-Project-14141-1659542942\Assignments\Aravindh R\Assignment 2\app.pyÚhome   ó   r   z/aboutc                   C   r   )Nz
+about.htmlr   r	   r	   r	   r
+   Úabout   r   r
+   z/user/<username>c                 C   ó   dt | ƒ› S )NzHii r   )Úusernamer	   r	   r
+   Úshow_user_profile   ó   r   z/post/<int:post_id>c                 C   r   )NzPost: r   )Zpost_idr	   r	   r
+   Úshow_user_post   r   r   z/signupc                   C   r   )Nzsignup.htmlr   r	   r	   r	   r
+   Úsign_up   r   r   z/loginc                   C   r   )Nz
+login.htmlr   r	   r	   r	   r
+   Úlog_in   r   r   Ú__main__T)ÚdebugN)Ú
+markupsafer   Úflaskr   r   Ú__name__ÚappÚrouter   r
+   r   r   r   r   Úrunr	   r	   r	   r
+   Ú<module>   s$   
+
+
+
+
+
+

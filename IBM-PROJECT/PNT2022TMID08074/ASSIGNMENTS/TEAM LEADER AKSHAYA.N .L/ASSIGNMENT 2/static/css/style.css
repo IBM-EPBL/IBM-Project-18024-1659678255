@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+.navbar {
+    padding: 50px 70px;
+    height: auto;
+    min-height: 12vh;
+}
+
+.nav-link {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .container-fluid .navbar-nav .nav-link {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.top {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(black_bk6.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.main-content {
+    margin: 60px 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.c1 {
+    margin: 60px 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.c1 h1 {
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    padding-top: 70px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.r {
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    padding-top: 70px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main-content h1 {
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    padding-top: 70px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 30px 25px;
+    border-radius: 15px;
+    max-width: 800px
+}
+
+.box {
+    border: 2px solid #ddd;
+    padding: 10px 20px
+}
+
+.inputbox {
+    border: none;
+    outline: none;
+    text-align: left;
+}
+
+.h-blue {
+    color: #49bff5;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    font-size: 14px;
+    font-weight: 500
+}
+
+::placeholder {
+    font-size: 18px;
+    color: #ddd
+}
+
+.b {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    padding-top: 70px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.bt-sec {
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    position: relative;
+    padding: 10px;
+}
+
+.bt-sec::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.bt-sec:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.bt-sec::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.bt-sec:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.dis {
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.dis td,
+.dis th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.dis tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+.dis tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.dis tr:hover {
+    background-color: #ddd;
+}
+
+.dis th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000000;
+    color: white;
+}
